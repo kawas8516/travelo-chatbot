@@ -2,7 +2,7 @@ import requests
 import os
 
 HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/microsoft/DialoGPT-medium"
-HUGGINGFACE_API_TOKEN = os.getenv("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")
+HUGGINGFACE_API_TOKEN = os.getenv("hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 def query_huggingface(prompt):
     headers = {"Authorization": f"Bearer {HUGGINGFACE_API_TOKEN}"}
