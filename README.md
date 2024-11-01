@@ -39,7 +39,9 @@ Travelo is a chatbot-based ticketing system for museums. It provides a convenien
 
 4. **Set Up MongoDB**:
     - Ensure MongoDB is running on your system.
-    - For cloud setup, create a MongoDB Atlas account, create a database cluster, and note down the connection URI.
+    - You can use the MongoDB Compass or the MongoDB shell to create the database and collection.
+    - Create a new database named `museum_ticketing_system` and a collection named `museum_info` and `ticket_info` .
+    - For cloud setup, create a MongoDB Atlas account, create a database cluster, and note down the connection URI.(by deault it's localhost)
 
 5. **Add Environment Variables**:
     - Create a `.env` file in the root directory and add the following:
